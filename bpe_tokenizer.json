@@ -1,0 +1,444 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "[PAD]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "[UNK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "[CLS]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 3,
+      "content": "[SEP]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 4,
+      "content": "[MASK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": null,
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "[PAD]": 0,
+      "[UNK]": 1,
+      "[CLS]": 2,
+      "[SEP]": 3,
+      "[MASK]": 4,
+      ".": 5,
+      "A": 6,
+      "D": 7,
+      "I": 8,
+      "L": 9,
+      "M": 10,
+      "a": 11,
+      "b": 12,
+      "c": 13,
+      "d": 14,
+      "e": 15,
+      "f": 16,
+      "g": 17,
+      "h": 18,
+      "i": 19,
+      "k": 20,
+      "l": 21,
+      "m": 22,
+      "n": 23,
+      "o": 24,
+      "p": 25,
+      "r": 26,
+      "s": 27,
+      "t": 28,
+      "u": 29,
+      "w": 30,
+      "y": 31,
+      "in": 32,
+      "ar": 33,
+      "ing": 34,
+      "an": 35,
+      "is": 36,
+      "ge": 37,
+      "Le": 38,
+      "ch": 39,
+      "el": 40,
+      "ning": 41,
+      "arning": 42,
+      "Learning": 43,
+      "AI": 44,
+      "Ma": 45,
+      "ine": 46,
+      "ang": 47,
+      "chine": 48,
+      "Machine": 49,
+      "Lar": 50,
+      "Lang": 51,
+      "Mo": 52,
+      "al": 53,
+      "at": 54,
+      "age": 55,
+      "ce": 56,
+      "del": 57,
+      "fo": 58,
+      "ming": 59,
+      "ow": 60,
+      "ran": 61,
+      "rming": 62,
+      "sfo": 63,
+      "tran": 64,
+      "uage": 65,
+      "are": 66,
+      "Large": 67,
+      "Language": 68,
+      "Model": 69,
+      "sforming": 70,
+      "transforming": 71,
+      "Ar": 72,
+      "De": 73,
+      "In": 74,
+      "Ll": 75,
+      "am": 76,
+      "ap": 77,
+      "as": 78,
+      "au": 79,
+      "bs": 80,
+      "ci": 81,
+      "cat": 82,
+      "care": 83,
+      "dl": 84,
+      "du": 85,
+      "en": 86,
+      "ep": 87,
+      "er": 88,
+      "et": 89,
+      "eal": 90,
+      "edu": 91,
+      "fi": 92,
+      "fu": 93,
+      "gr": 94,
+      "hel": 95,
+      "hcare": 96,
+      "heal": 97,
+      "io": 98,
+      "ige": 99
+    },
+    "merges": [
+      [
+        "i",
+        "n"
+      ],
+      [
+        "a",
+        "r"
+      ],
+      [
+        "in",
+        "g"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "i",
+        "s"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "L",
+        "e"
+      ],
+      [
+        "c",
+        "h"
+      ],
+      [
+        "e",
+        "l"
+      ],
+      [
+        "n",
+        "ing"
+      ],
+      [
+        "ar",
+        "ning"
+      ],
+      [
+        "Le",
+        "arning"
+      ],
+      [
+        "A",
+        "I"
+      ],
+      [
+        "M",
+        "a"
+      ],
+      [
+        "in",
+        "e"
+      ],
+      [
+        "an",
+        "g"
+      ],
+      [
+        "ch",
+        "ine"
+      ],
+      [
+        "Ma",
+        "chine"
+      ],
+      [
+        "L",
+        "ar"
+      ],
+      [
+        "L",
+        "ang"
+      ],
+      [
+        "M",
+        "o"
+      ],
+      [
+        "a",
+        "l"
+      ],
+      [
+        "a",
+        "t"
+      ],
+      [
+        "a",
+        "ge"
+      ],
+      [
+        "c",
+        "e"
+      ],
+      [
+        "d",
+        "el"
+      ],
+      [
+        "f",
+        "o"
+      ],
+      [
+        "m",
+        "ing"
+      ],
+      [
+        "o",
+        "w"
+      ],
+      [
+        "r",
+        "an"
+      ],
+      [
+        "r",
+        "ming"
+      ],
+      [
+        "s",
+        "fo"
+      ],
+      [
+        "t",
+        "ran"
+      ],
+      [
+        "u",
+        "age"
+      ],
+      [
+        "ar",
+        "e"
+      ],
+      [
+        "Lar",
+        "ge"
+      ],
+      [
+        "Lang",
+        "uage"
+      ],
+      [
+        "Mo",
+        "del"
+      ],
+      [
+        "sfo",
+        "rming"
+      ],
+      [
+        "tran",
+        "sforming"
+      ],
+      [
+        "A",
+        "r"
+      ],
+      [
+        "D",
+        "e"
+      ],
+      [
+        "I",
+        "n"
+      ],
+      [
+        "L",
+        "l"
+      ],
+      [
+        "a",
+        "m"
+      ],
+      [
+        "a",
+        "p"
+      ],
+      [
+        "a",
+        "s"
+      ],
+      [
+        "a",
+        "u"
+      ],
+      [
+        "b",
+        "s"
+      ],
+      [
+        "c",
+        "i"
+      ],
+      [
+        "c",
+        "at"
+      ],
+      [
+        "c",
+        "are"
+      ],
+      [
+        "d",
+        "l"
+      ],
+      [
+        "d",
+        "u"
+      ],
+      [
+        "e",
+        "n"
+      ],
+      [
+        "e",
+        "p"
+      ],
+      [
+        "e",
+        "r"
+      ],
+      [
+        "e",
+        "t"
+      ],
+      [
+        "e",
+        "al"
+      ],
+      [
+        "e",
+        "du"
+      ],
+      [
+        "f",
+        "i"
+      ],
+      [
+        "f",
+        "u"
+      ],
+      [
+        "g",
+        "r"
+      ],
+      [
+        "h",
+        "el"
+      ],
+      [
+        "h",
+        "care"
+      ],
+      [
+        "h",
+        "eal"
+      ],
+      [
+        "i",
+        "o"
+      ],
+      [
+        "i",
+        "ge"
+      ]
+    ]
+  }
+}

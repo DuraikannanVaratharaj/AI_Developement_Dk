@@ -1,0 +1,5 @@
+Python is easy to learn.
+Python is used in AI.
+AI is changing the world.
+Machine Learning is a subset of AI.
+React is used for UI.
