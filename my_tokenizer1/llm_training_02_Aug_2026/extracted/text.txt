@@ -1,0 +1,19 @@
+Duraikannan V
+Senior Software Developer (.NET Full Stack)
++91-9790997494
+kannandurai55@gmail.com
+Avinashi TK, Tirupur DT, Tamil Nadu
+Professional Summary
+Senior Software Developer with 11 years of experience in .NET Core 10, Web API, React, LINQ,
+MS SQL Server and Azure basics.
+Technical Skills
+Backend: .NET Core 10, ASP.NET Core Web API, C#, LINQ, Entity Framework Core
+Frontend: React, HTML5, CSS3, JavaScript, Bootstrap, Material UI
+Database: MS SQL Server
+Cloud: Azure Basics (App Service, Azure SQL, Storage)
+Tools: Visual Studio 2022, VS Code, Git, Azure DevOps
+Methodology: Agile, Scrum
+Experience
+IT Analyst - Tata Consultancy Services (Feb 2023 - Present)
+Module Lead - LTIMindtree (May 2021 - Feb 2023)
+Software Engineer - Sierra ODC Pvt Ltd (Mar 2018 - May 2021)
